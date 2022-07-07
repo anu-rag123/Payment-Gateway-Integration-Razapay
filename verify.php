@@ -54,8 +54,8 @@
     //WhatsApp Message sender
     //require_once ('vendor/autoload.php'); // if you use Composer
     require_once('ultramsg.class.php'); // if you download ultramsg.class.php
-    $ultramsg_token="70at4kv8yulavtew"; // Ultramsg.com token
-    $instance_id="instance11376"; // Ultramsg.com instance id
+    $ultramsg_token=""; // Ultramsg.com token
+    $instance_id=""; // Ultramsg.com instance id
     $client = new UltraMsg\WhatsAppApi($ultramsg_token,$instance_id);
     $to=$_POST['contact']; 
     $body='Dear ' . $_POST['name'].','.'your One Time Password for contact verification is: '. $mobotp . '.';
