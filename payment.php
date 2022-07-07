@@ -57,7 +57,7 @@ $city = $_SESSION['city'];
                        data:"amt="+amt+"&name="+name,
                        success:function(result){
                            var options = {
-                                "key": "rzp_test_Rw1ytYnMSklFay", 
+                                "key": "", 
                                 "amount": amt*100, 
                                 "currency": "INR",
                                 "name": "Light-De-Literacy",
